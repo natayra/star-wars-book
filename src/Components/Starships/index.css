@@ -1,0 +1,37 @@
+.starship-name {
+  width: 25vw;
+  height: 55px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px 0px 5px 0px;
+}
+
+.starship-details {
+  display: flex;
+  flex-direction: column;
+align-items: center;  
+}
+
+.starships-pilots-container {
+  display: flex;
+  padding: 10px 5px 10px 5px;
+  width: 25vw;
+ 
+}
+
+.pilot-name {
+  width: 25vw;
+  height: 55px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px 0px 5px 0px;
+
+
+}
+
+.pilot-name-container {
+  display: flex;
+    flex-direction: column;
+    padding: 0px 15px 10px 15px;
+    width: 25vw;
+}
