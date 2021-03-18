@@ -52,7 +52,7 @@ export default class Movies extends React.Component {
 
   render() {
     return (
-      <div className="Movies">
+      <div className="Movies intro" ref={this.props.intro}>
         <div className="movie-title-container">
           {this.state.movies.map((movie) => (
             <>
@@ -66,7 +66,7 @@ export default class Movies extends React.Component {
               </button>
               {Number(Object.keys(this.state.description)) ===
               movie.episode_id ? (
-                <div>
+                <div >
                   <div className="movie-description">
                     {Object.values(this.state.description)}
                   </div>
@@ -76,7 +76,7 @@ export default class Movies extends React.Component {
                       this.showStarships(movie);
                     }}
                   >
-                    Starships
+                    See starships
                   </button>
                 </div>
               ) : null}
